@@ -19,7 +19,7 @@ export default function Home() {
             JOIN THE #TemplatesAreEvil MOVEMENT!
           </p>
           <Image 
-            src='/projen.svg'
+            src='/projen_transparent_png.png'
             width='500'
             height='500'
           />

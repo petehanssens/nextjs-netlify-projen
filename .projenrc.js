@@ -21,7 +21,9 @@ const project = new web.NextJsProject({
   // bundledDeps: undefined,                                                   /* List of dependencies to bundle into this module. */
   // deps: [],                                                                 /* Runtime dependencies of this module. */
   // description: undefined,                                                   /* The description is just a string that helps people understand the purpose of the package. */
-  // devDeps: [],                                                              /* Build dependencies for this module. */
+  devDeps: [
+    '@netlify/plugin-nextjs'
+  ],                                                              /* Build dependencies for this module. */
   // entrypoint: 'lib/index.js',                                               /* Module entrypoint (`main` in `package.json`). */
   // homepage: undefined,                                                      /* Package's Homepage / Website. */
   // keywords: undefined,                                                      /* Keywords to include in `package.json`. */
